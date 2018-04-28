@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutSpeakingTimeGameOption"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3" >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4" >
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutOption"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/btnSpeakingTimeStart"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:text="@string/start" />
+
+            <ImageButton
+                android:id="@+id/btnSpeakingTimeIntroduction"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:text="@string/intro" />
+
+            <ImageButton
+                android:id="@+id/btnSpeakingTimeMenu"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:text="@string/creadit" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">English Assistant</string>
+    <string name="hello_world">Hello</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Main Menu -->
+    <string name="APP_ID">1641425372746815</string>
+
+    <!-- Word Type -->
+    <string-array name="word_types">
+        <item>None</item>
+        <item>Đại từ</item>
+        <item>Danh từ</item>
+        <item>Động từ</item>
+        <item>Tính từ</item>
+        <item>Định ngữ</item>
+        <item>Giới từ</item>
+        <item>Liên từ</item>
+        <item>Mạo từ</item>
+        <item>Phó từ</item>
+        <item>Thán Từ</item>
+        <item>Thành ngữ</item>
+    </string-array>
+
+    <!-- Word Description -->
+    <string name="word">Word</string>
+    <string name="definition">Definition</string>
+    <string name="pronunciation">Pronunciation</string>
+    <string name="example">Example</string>
+    <string name="synonym">Synonym</string>
+    <string name="oxford">Oxford Dictionary</string>
+    <string name="plus">+</string>
+
+    <!-- Irregular Word -->
+    <string name="irregular">Irregular</string>
+    <string name="infi">Infinitive</string>
+    <string name="simple_past">Past</string>
+    <string name="past_part">Past Part</string>
+
+    <!-- Major -->
+    <string name="major">Major</string>
+    <string name="major_definition">Major Definition</string>
+    <string name="title_activity_word">Word</string>
+    <string name="title_activity_word_detail">WordDetail</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Type -->
+    <string name="type">Type</string>
+
+    <!-- Favorite -->
+    <string name="favorite">Favorites</string>
+    <string name="remove_all">Remove All</string>
+    <string name="remove_selected">Remove Selected</string>
+    <string name="wait">Please wait</string>
+
+    <!-- Home -->
+    <string name="no_result">No Result</string>
+    <string name="filter_by">FILTER BY: </string>
+
+    <!-- DashBoard -->
+    <string name="dashboard">Dashboard</string>
+    <string name="dashboard_favorite_week">Dashboard Week Favorite</string>
+    <string name="dashboard_favorite_month">Dashboard Month Favorite</string>
+    <string name="dashboard_overview_week">Dashboard Week Overview</string>
+    <string name="dashboard_overview_month">Dashboard Month Overview</string>
+    <string name="dashboard_games">Dashboard Games</string>
+    <string name="current_week">Current Week</string>
+    <string name="current_month">Current Month</string>
+    <string name="weekly_report">Weekly Report</string>
+    <string name="yearly_report">Yearly Report</string>
+    <string name="monthly_report">Monthly Report</string>
+    <string name="report">Report</string>
+    <string name="summary">Summary</string>
+    <string name="view_word">View Word</string>
+    <string name="add_favorite">Add Favorite</string>
+    <string name="remove_favorite">Remove Favorite</string>
+    <string name="hear_voice">Hear Voice</string>
+    <string name="wrong_choice">Total: </string>
+
+    <!-- Favorite Calander -->
+    <string name="favorite_calander">Favorite Calendar</string>
+    <string name="sel_date">Selected date: %s</string>
+
+    <!-- Game -->
+    <string name="add_favorite_word">Please add some favorite words before playing games</string>
+    
+    <string name="game_name">Game Name</string>
+    <string name="single_word">Single Word</string>
+    <string name="multiple_words">Multiple Words</string>
+    <string name="choose_word">Choose Playing Word</string>
+    <string name="chosen_word">Chosen Words</string>
+    <string name="play">Play</string>
+    <string name="start">Start</string>
+    <string name="intro">Introduction</string>
+    <string name="creadit">Credit</string>
+    <string name="zero">0</string>
+    <string name="information">Information</string>
+    <string name="record">Record</string>
+    <string name="player_score">Player Score</string>
+    <string name="best_score">Best Score</string>
+
+    <string-array name="single_game_names">
+        <item>Parachutist</item>
+        <item>On going</item>
+        <item>On going</item>
+        <item>On going</item>
+        <item>On going</item>
+    </string-array>
+    <string-array name="multiple_game_names">
+        <item>On going</item>
+        <item>On going</item>
+        <item>On going</item>
+        <item>On going</item>
+        <item>On going</item>
+    </string-array>
+
+    <!-- Parachutist -->
+    <string name="letter">Letter</string>
+    <string name="life">Life</string>
+    <string name="time">Time</string>
+    <string name="score">Score: </string>
+
+    <!-- Voice -->
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+
+    <!-- About Us -->
+    <string name="developer">Developer</string>
+    <string name="reference">Reference</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="free_to_contact">Please Feel Free To Contact Us</string>
+    <string name="name_luong">Luong Truong Tran Quan</string>
+    <string name="name_lap">Lap Nguyen Thiet</string>
+    <string name="reference_database">Database</string>
+
+    <string-array name="reference_database_array">
+        <item>Ho Ngoc Duc and The Free Vietnamese Dictionary Project</item>
+        <item>Oxford Dictionary (http://www.oxforddictionaries.com/)</item>
+    </string-array>
+
+    <string name="reference_database_original">Ho Ngoc Duc and The Free Vietnamese Dictionary Project</string>
+    <string name="reference_database_oxford">Oxford Dictionary (http://www.oxforddictionaries.com/)</string>
+    <string name="reference_library">Library</string>
+
+    <string-array name="reference_library_array">
+        <item>Robert Theis (https://github.com/rmtheis/)</item>
+        <item>ViewPagerIndicator (http://viewpagerindicator.com/)</item>
+        <item>Jsoup (http://jsoup.org/)</item>
+        <item>AChartEngine (http://www.achartengine.org/)</item>
+    </string-array>
+
+    <string name="reference_library_OCR">Robert Theis (https://github.com/rmtheis/)</string>
+    <string name="reference_library_viewpagerindicator">ViewPagerIndicator (http://viewpagerindicator.com/)</string>
+    <string name="reference_library_jsoup">Jsoup (http://jsoup.org/)</string>
+    <string name="reference_library_achartengine">AChartEngine (http://www.achartengine.org/)</string>
+    <string name="reference_image">Image</string>
+
+    <string-array name="reference_image_array">
+        <item>http://www.flaticon.com/</item>
+        <item>http://www.iconarchive.com/</item>
+        <item>https://inkbluesky.wordpress.com/2010/06/</item>
+        <item>http://www.graphicsfuel.com/</item>
+        <item>http://www.clipartbest.com/</item>
+        <item>http://www.graphicpanic.com/</item>
+        <item>https://pixabay.com</item>
+    </string-array>
+
+    <string name="reference_image_flaticon">http://www.flaticon.com/</string>
+    <string name="reference_image_iconarchive">http://www.iconarchive.com/</string>
+    <string name="reference_image_inkbluesky">https://inkbluesky.wordpress.com/2010/06/</string>
+    <string name="reference_image_graphicsfuel">http://www.graphicsfuel.com/</string>
+    <string name="reference_image_clipartbest">http://www.clipartbest.com/</string>
+    <string name="reference_image_graphicpanic">http://www.graphicpanic.com/</string>
+    <string name="reference_image_pixabay">https://pixabay.com</string>
+    <string name="reference_music">Music and Sound</string>
+
+    <string-array name="reference_music_array">
+        <item>http://www.freesfx.co.uk/</item>
+    </string-array>
+
+    <string name="reference_music_freesfx">http://www.freesfx.co.uk/</string>
+    <string name="to">To: </string>
+    <string name="subject">Subject: </string>
+    <string name="message">Message: </string>
+
+    <!-- Help -->
+    <string name="help">Help</string>
+
+    <string-array name="help_button">
+        <item>Back to Search Page</item>
+        <item>Capture your word</item>
+        <item>Speech recognition</item>
+        <item>Add favorite</item>
+        <item>Hear voice</item>
+        <item>See you favorite list via calendar</item>
+    </string-array>
+    <string-array name="help_tips">
+        <item>You can choose FAVORITE WORDS for PLAYING GAME</item>
+        <item>If you give WRONG ANSWER for a word in game. Its PRIORITY will INCREASE. Following, it may APPEAR on the TOP of the FAVORITE LIST.</item>
+    </string-array>
+
+    <!-- OCR -->
+    <string-array name="capturemodes">
+        <item>Continuous</item>
+        <item>Single shot</item>
+    </string-array>
+    <string-array name="pagesegmentationmodes">
+        <item>Auto</item>
+        <item>Auto (no OSD)</item>
+        <item>Single block</item>
+        <item>Single character</item>
+        <item>Single column</item>
+        <item>Single line</item>
+        <item>Single word</item>
+        <item>Vertical block</item>
+        <item>Sparse text</item>
+    </string-array>
+    <string-array name="ocrenginemodes">
+        <item>Tesseract</item>
+        <item>Cube</item>
+        <item>Both</item>
+    </string-array>
+    <string-array name="translators">
+        <item>Bing Translator</item>
+        <item>Google Translate</item>
+    </string-array>
+
+    <!-- The elements in this array must match to the iso6393 array. -->
+    <string-array name="languagenames">
+        <item>Afrikaans</item>
+        <item>Albanian</item>
+        <item>Arabic</item>
+        <item>Azeri</item>
+        <item>Basque</item>
+        <item>Belarusian</item>
+        <item>Bengali</item>
+        <item>Bulgarian</item>
+        <item>Catalan</item>
+        <!-- <item>Cherokee</item> -->
+        <item>Chinese (Simplified)</item>
+        <item>Chinese (Traditional)</item>
+        <item>Croatian</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Dutch</item>
+        <item>English</item>
+        <item>Estonian</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>Galician</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Hebrew</item>
+        <item>Hindi</item>
+        <item>Hungarian</item>
+        <item>Icelandic</item>
+        <item>Indonesian</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Kannada</item>
+        <item>Korean</item>
+        <item>Latvian</item>
+        <item>Lithuanian</item>
+        <item>Macedonian</item>
+        <item>Malay</item>
+        <item>Malayalam</item>
+        <item>Maltese</item>
+        <item>Norwegian</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Serbian (Latin)</item>
+        <item>Slovak</item>
+        <item>Slovenian</item>
+        <item>Spanish</item>
+        <item>Swahili</item>
+        <item>Swedish</item>
+        <item>Tagalog</item>
+        <item>Tamil</item>
+        <item>Telugu</item>
+        <item>Thai</item>
+        <item>Turkish</item>
+        <item>Ukrainian</item>
+        <item>Vietnamese</item>
+    </string-array>
+
+    <!-- The elements in this array must match to the languagenames array. -->
+    <string-array name="iso6393">
+        <item>afr</item>
+        <!-- Afrikaans -->
+        <item>sqi</item>
+        <!-- Albanian -->
+        <item>ara</item>
+        <!-- Arabic -->
+        <item>aze</item>
+        <!-- Azeri -->
+        <item>eus</item>
+        <!-- Basque -->
+        <item>bel</item>
+        <!-- Belarusian -->
+        <item>ben</item>
+        <!-- Bengali -->
+        <item>bul</item>
+        <!-- Bulgarian -->
+        <item>cat</item>
+        <!-- Catalan -->
+        <!-- <item>chr</item> -->
+        <!-- Cherokee -->
+        <item>chi_sim</item>
+        <!-- Chinese (Simplified) -->
+        <item>chi_tra</item>
+        <!-- Chinese (Traditional) -->
+        <item>hrv</item>
+        <!-- Croatian -->
+        <item>ces</item>
+        <!-- Czech -->
+        <item>dan</item>
+        <!-- Danish -->
+        <item>nld</item>
+        <!-- Dutch -->
+        <item>eng</item>
+        <!-- English -->
+        <item>est</item>
+        <!-- Estonian -->
+        <item>fin</item>
+        <!-- Finnish -->
+        <item>fra</item>
+        <!-- French -->
+        <item>glg</item>
+        <!-- Galician -->
+        <item>deu</item>
+        <!-- German -->
+        <item>ell</item>
+        <!-- Greek -->
+        <item>heb</item>
+        <!-- Hebrew -->
+        <item>hin</item>
+        <!-- Hindi -->
+        <item>hun</item>
+        <!-- Hungarian -->
+        <item>isl</item>
+        <!-- Icelandic -->
+        <item>ind</item>
+        <!-- Indonesian -->
+        <item>ita</item>
+        <!-- Italian -->
+        <item>jpn</item>
+        <!-- Japanese -->
+        <item>kan</item>
+        <!-- Kannada -->
+        <item>kor</item>
+        <!-- Korean -->
+        <item>lav</item>
+        <!-- Latvian -->
+        <item>lit</item>
+        <!-- Lithuanian -->
+        <item>mkd</item>
+        <!-- Macedonian -->
+        <item>msa</item>
+        <!-- Malay -->
+        <item>mal</item>
+        <!-- Malayalam -->
+        <item>mlt</item>
+        <!-- Maltese -->
+        <item>nor</item>
+        <!-- Norwegian -->
+        <item>pol</item>
+        <!-- Polish -->
+        <item>por</item>
+        <!-- Portuguese -->
+        <item>ron</item>
+        <!-- Romanian -->
+        <item>rus</item>
+        <!-- Russian -->
+        <item>srp</item>
+        <!-- Serbian (Latin) -->
+        <item>slk</item>
+        <!-- Slovak -->
+        <item>slv</item>
+        <!-- Slovenian -->
+        <item>spa</item>
+        <!-- Spanish -->
+        <item>swa</item>
+        <!-- Swahili -->
+        <item>swe</item>
+        <!-- Swedish -->
+        <item>tgl</item>
+        <!-- Tagalog -->
+        <item>tam</item>
+        <!-- Tamil -->
+        <item>tel</item>
+        <!-- Telugu -->
+        <item>tha</item>
+        <!-- Thai -->
+        <item>tur</item>
+        <!-- Turkish -->
+        <item>ukr</item>
+        <!-- Ukrainian -->
+        <item>vie</item>
+        <!-- Vietnamese -->
+    </string-array>
+
+    <!-- Unused -->
+    <string-array name="iso6391">
+        <item>bg</item>
+        <!-- Bulgarian -->
+        <item>ca</item>
+        <!-- Catalan -->
+        <item>zh-CN</item>
+        <!-- Chinese (Simplified) -->
+        <item>zh-TW</item>
+        <!-- Chinese (Traditional) -->
+        <item>cs</item>
+        <!-- Czech -->
+        <item>da</item>
+        <!-- Danish -->
+        <item>nl</item>
+        <!-- Dutch -->
+        <item>en</item>
+        <!-- English -->
+        <item>fi</item>
+        <!-- Finnish -->
+        <item>fr</item>
+        <!-- French -->
+        <item>de</item>
+        <!-- German -->
+        <item>el</item>
+        <!-- Greek -->
+        <item>hu</item>
+        <!-- Hungarian -->
+        <item>id</item>
+        <!-- Indonesian -->
+        <item>it</item>
+        <!-- Italian -->
+        <item>ja</item>
+        <!-- Japanese -->
+        <item>ko</item>
+        <!-- Korean -->
+        <item>lv</item>
+        <!-- Latvian -->
+        <item>lt</item>
+        <!-- Lithuanian -->
+        <item>no</item>
+        <!-- Norwegian -->
+        <item>pl</item>
+        <!-- Polish -->
+        <item>pt</item>
+        <!-- Portuguese -->
+        <item>ro</item>
+        <!-- Romanian -->
+        <item>ru</item>
+        <!-- Russian -->
+        <item>sr</item>
+        <!-- Serbian (Latin) -->
+        <item>sk</item>
+        <!-- Slovak -->
+        <item>sl</item>
+        <!-- Slovenian -->
+        <item>es</item>
+        <!-- Spanish -->
+        <item>sv</item>
+        <!-- Swedish -->
+        <item>tl</item>
+        <!-- Tagalog -->
+        <item>tr</item>
+        <!-- Turkish -->
+        <item>uk</item>
+        <!-- Ukrainian -->
+        <item>vi</item>
+        <!-- Vietnamese -->
+    </string-array>
+
+    <!-- Translation target codes for Google Translate. -->
+    <!-- The elements in this array must match to the translationtargetlanguagenames_google array. -->
+    <string-array name="translationtargetiso6391_google">
+        <item>af</item>
+        <!-- Afrikaans -->
+        <item>sq</item>
+        <!-- Albanian -->
+        <item>ar</item>
+        <!-- Arabic -->
+        <item>az</item>
+        <!-- Azeri -->
+        <item>eu</item>
+        <!-- Basque -->
+        <item>be</item>
+        <!-- Belarusian -->
+        <item>bn</item>
+        <!-- Bengali -->
+        <item>bs</item>
+        <!-- Bosnian -->
+        <item>bg</item>
+        <!-- Bulgarian -->
+        <item>ca</item>
+        <!-- Catalan -->
+        <item>ceb</item>
+        <!-- Cebuano -->
+        <item>zh</item>
+        <!-- Chinese -->
+        <item>zh-CN</item>
+        <!-- Chinese (Simplified) -->
+        <item>zh-TW</item>
+        <!-- Chinese (Traditional) -->
+        <item>hr</item>
+        <!-- Croatian -->
+        <item>cs</item>
+        <!-- Czech -->
+        <item>da</item>
+        <!-- Danish -->
+        <item>nl</item>
+        <!-- Dutch -->
+        <item>en</item>
+        <!-- English -->
+        <item>et</item>
+        <!-- Estonian -->
+        <item>fi</item>
+        <!-- Finnish -->
+        <item>fr</item>
+        <!-- French -->
+        <item>gl</item>
+        <!-- Galician -->
+        <item>ka</item>
+        <!-- Georgian -->
+        <item>de</item>
+        <!-- German -->
+        <item>el</item>
+        <!-- Greek -->
+        <item>gu</item>
+        <!-- Gujarati -->
+        <item>ht</item>
+        <!-- Haitian -->
+        <item>iw</item>
+        <!-- Hebrew -->
+        <item>hi</item>
+        <!-- Hindi -->
+        <item>hmn</item>
+        <!-- Hmong -->
+        <item>hu</item>
+        <!-- Hungarian -->
+        <item>is</item>
+        <!-- Icelandic -->
+        <item>id</item>
+        <!-- Indonesian -->
+        <item>ga</item>
+        <!-- Irish -->
+        <item>it</item>
+        <!-- Italian -->
+        <item>ja</item>
+        <!-- Japanese -->
+        <item>jw</item>
+        <!-- Javanese -->
+        <item>kn</item>
+        <!-- Kannada -->
+        <!-- <item>km</item> -->
+        <!-- Khmer -->
+        <item>ko</item>
+        <!-- Korean -->
+        <item>lo</item>
+        <!-- Lao -->
+        <item>lv</item>
+        <!-- Latvian -->
+        <item>lt</item>
+        <!-- Lithuanian -->
+        <item>mk</item>
+        <!-- Macedonian -->
+        <item>ms</item>
+        <!-- Malay -->
+        <item>mt</item>
+        <!-- Maltese -->
+        <item>mr</item>
+        <!-- Marathi -->
+        <item>no</item>
+        <!-- Norwegian -->
+        <item>fa</item>
+        <!-- Persian -->
+        <item>pl</item>
+        <!-- Polish -->
+        <item>pt</item>
+        <!-- Portuguese -->
+        <item>ro</item>
+        <!-- Romanian -->
+        <item>ru</item>
+        <!-- Russian -->
+        <item>sr</item>
+        <!-- Serbian -->
+        <item>sk</item>
+        <!-- Slovak -->
+        <item>sl</item>
+        <!-- Slovenian -->
+        <item>es</item>
+        <!-- Spanish -->
+        <item>sw</item>
+        <!-- Swahili -->
+        <item>sv</item>
+        <!-- Swedish -->
+        <item>tl</item>
+        <!-- Tagalog -->
+        <item>ta</item>
+        <!-- Tamil -->
+        <item>te</item>
+        <!-- Telugu -->
+        <item>th</item>
+        <!-- Thai -->
+        <item>tr</item>
+        <!-- Turkish -->
+        <item>uk</item>
+        <!-- Ukrainian -->
+        <item>ur</item>
+        <!-- Urdu -->
+        <item>vi</item>
+        <!-- Vietnamese -->
+        <item>cy</item>
+        <!-- Welsh -->
+        <item>yi</item>
+        <!-- Yiddish -->
+    </string-array>
+
+    <!-- Translation target names for Google Translate. -->
+    <!-- The elements in this array must match to the translationtargetiso6391_google array. -->
+    <string-array name="translationtargetlanguagenames_google">
+        <item>Afrikaans</item>
+        <item>Albanian</item>
+        <item>Arabic</item>
+        <item>Azeri</item>
+        <item>Basque</item>
+        <item>Belarusian</item>
+        <item>Bengali</item>
+        <item>Bosnian</item>
+        <item>Bulgarian</item>
+        <item>Catalan</item>
+        <item>Cebuano</item>
+        <item>Chinese</item>
+        <item>Chinese (Simplified)</item>
+        <item>Chinese (Traditional)</item>
+        <item>Croatian</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Dutch</item>
+        <item>English</item>
+        <item>Estonian</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>Galician</item>
+        <item>Georgian</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Gujarati</item>
+        <item>Haitian</item>
+        <item>Hebrew</item>
+        <item>Hindi</item>
+        <item>Hmong</item>
+        <item>Hungarian</item>
+        <item>Icelandic</item>
+        <item>Indonesian</item>
+        <item>Irish</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Javanese</item>
+        <item>Kannada</item>
+        <!-- <item>Khmer</item> -->
+        <item>Korean</item>
+        <item>Lao</item>
+        <item>Latvian</item>
+        <item>Lithuanian</item>
+        <item>Macedonian</item>
+        <item>Malay</item>
+        <item>Maltese</item>
+        <item>Marathi</item>
+        <item>Norwegian</item>
+        <item>Persian</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Serbian</item>
+        <item>Slovak</item>
+        <item>Slovenian</item>
+        <item>Spanish</item>
+        <item>Swahili</item>
+        <item>Swedish</item>
+        <item>Tagalog</item>
+        <item>Tamil</item>
+        <item>Telugu</item>
+        <item>Thai</item>
+        <item>Turkish</item>
+        <item>Ukrainian</item>
+        <item>Urdu</item>
+        <item>Vietnamese</item>
+        <item>Welsh</item>
+        <item>Yiddish</item>
+    </string-array>
+
+    <!-- Translation target language codes for the Microsoft Translate API. -->
+    <!-- The elements in this array must match to the translationtargetlanguagenames_microsoft array. -->
+    <string-array name="translationtargetiso6391_microsoft">
+        <item>ar</item>
+        <!-- Arabic -->
+        <item>bg</item>
+        <!-- Bulgarian -->
+        <item>ca</item>
+        <!-- Catalan -->
+        <item>zh-CHS</item>
+        <!-- Chinese (Simplified) -->
+        <item>zh-CHT</item>
+        <!-- Chinese (Traditional) -->
+        <item>cs</item>
+        <!-- Czech -->
+        <item>da</item>
+        <!-- Danish -->
+        <item>nl</item>
+        <!-- Dutch -->
+        <item>en</item>
+        <!-- English -->
+        <item>et</item>
+        <!-- Estonian -->
+        <item>fi</item>
+        <!-- Finnish -->
+        <item>fr</item>
+        <!-- French -->
+        <item>de</item>
+        <!-- German -->
+        <item>el</item>
+        <!-- Greek -->
+        <item>ht</item>
+        <!-- Haitian Creole -->
+        <item>he</item>
+        <!-- Hebrew -->
+        <item>hi</item>
+        <!-- Hindi -->
+        <item>mww</item>
+        <!-- Hmong -->
+        <item>hu</item>
+        <!-- Hungarian -->
+        <item>id</item>
+        <!-- Indonesian -->
+        <item>it</item>
+        <!-- Italian -->
+        <item>ja</item>
+        <!-- Japanese -->
+        <item>ko</item>
+        <!-- Korean -->
+        <item>lv</item>
+        <!-- Latvian -->
+        <item>lt</item>
+        <!-- Lithuanian -->
+        <item>ms</item>
+        <!-- Malay -->
+        <item>mt</item>
+        <!-- Maltese -->
+        <item>no</item>
+        <!-- Norwegian -->
+        <item>fa</item>
+        <!-- Persian -->
+        <item>pl</item>
+        <!-- Polish -->
+        <item>pt</item>
+        <!-- Portuguese -->
+        <item>ro</item>
+        <!-- Romanian -->
+        <item>ru</item>
+        <!-- Russian -->
+        <item>sk</item>
+        <!-- Slovak -->
+        <item>sl</item>
+        <!-- Slovenian -->
+        <item>es</item>
+        <!-- Spanish -->
+        <item>sv</item>
+        <!-- Swedish -->
+        <item>th</item>
+        <!-- Thai -->
+        <item>tr</item>
+        <!-- Turkish -->
+        <item>uk</item>
+        <!-- Ukrainian -->
+        <item>ur</item>
+        <!-- Urdu -->
+        <item>vi</item>
+        <!-- Vietnamese -->
+    </string-array>
+
+    <!-- Translation target names for the Microsoft Translate API. -->
+    <!-- The elements in this array must match to the translationtargetiso6391_microsoft array. -->
+    <string-array name="translationtargetlanguagenames_microsoft">
+        <item>Arabic</item>
+        <item>Bulgarian</item>
+        <item>Catalan</item>
+        <item>Chinese (Simplified)</item>
+        <item>Chinese (Traditional)</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Dutch</item>
+        <item>English</item>
+        <item>Estonian</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Haitian Creole</item>
+        <item>Hebrew</item>
+        <item>Hindi</item>
+        <item>Hmong</item>
+        <item>Hungarian</item>
+        <item>Indonesian</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Latvian</item>
+        <item>Lithuanian</item>
+        <item>Malay</item>
+        <item>Maltese</item>
+        <item>Norwegian</item>
+        <item>Persian</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Slovak</item>
+        <item>Slovenian</item>
+        <item>Spanish</item>
+        <item>Swedish</item>
+        <item>Thai</item>
+        <item>Turkish</item>
+        <item>Ukrainian</item>
+        <item>Urdu</item>
+        <item>Vietnamese</item>
+    </string-array>
+
+    <string name="title_activity_activity_choose_games">ActivityChooseGames</string>
+    <string name="title_activity_activity_begin_game">ActivityBeginGame</string>
+    <string name="title_activity_parachutist_option">ParachutistOptionActivity</string>
+    <string name="title_activity_favorites">FavoritesActivity</string>
+    <string name="title_activity_parachutist_game">ParachutistGameActivity</string>
+    <string name="title_activity_parachutist_intro">ParachutistIntroActivity</string>
+    <string name="title_activity_dashboard_general_week">DashboardGeneralWeekActivity</string>
+    <string name="title_activity_dashboard_favorite_week">DashboardFavoriteWeekActivity</string>
+    <string name="title_activity_dashboard_general_month">DashboardGeneralMonthActivity</string>
+    <string name="title_activity_dashboard_favorite_month">DashboardFavoriteMonthActivity</string>
+    <string name="title_activity_choose_words">ChooseWordsActivity</string>
+    <string name="title_activity_new_record">NewRecordActivity</string>
+    <string name="title_activity_wdoption">WDOptionActivity</string>
+    <string name="title_activity_wdgame">WDGameActivity</string>
+    <string name="title_activity_wdintro">WDIntroActivity</string>
+    <string name="title_activity_favorites_calander">FavoritesCalanderActivity</string>
+    <string name="title_activity_speaking_time_game">SpeakingTimeGameActivity</string>
+    <string name="title_activity_speaking_time_intro">SpeakingTimeIntroActivity</string>
+    <string name="title_activity_speaking_time_option">SpeakingTimeOptionActivity</string>
+    <string name="title_activity_about_us_developer">AboutUsDeveloperActivity</string>
+    <string name="title_activity_about_us_reference">AboutUsReferenceActivity</string>
+    <string name="title_activity_contact_us">ContactUsActivity</string>
+    <string name="title_activity_word_type">WordTypeActivity</string>
+    <string name="title_activity_favorite_detail_day">FavoriteDetailDayActivity</string>
+    <string name="title_activity_dashboard_word_wrong">DashboardWordWrongActivity</string>
+    <string name="title_activity_game_introduction">GameIntroductionActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_sample">SampleActivity</string>
+    <string name="extra_functions_hint">When you take a photograph of paragraph (or say something), the result will appear here. Following, you can tap on the speaker image to speak it out.</string>
+
+</resources>

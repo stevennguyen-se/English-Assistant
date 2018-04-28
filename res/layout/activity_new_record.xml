@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/imgBackgroundHighScore"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/background_highscore" />
+
+    <TextView
+        android:id="@+id/txtRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imgBackgroundHighScore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/record"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtRecordNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtRecord"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/zero"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/txtPlayerScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtRecordNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/player_score"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtPlayerScoreNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPlayerScore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/zero"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/imgBestScoreMedal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@id/imgBackgroundHighScore"
+        android:layout_alignRight="@id/imgBackgroundHighScore"
+        android:src="@drawable/ic_best_score"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imgNewRecordNext"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/titlebar_forward"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/btnFacebookShare"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/imgBackgroundHighScore"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/button_share" />
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_game_introduction"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <com.example.thesis.viewpager.GameIntroViewPager
+		android:id="@+id/viewpagerGameIntro"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+	<com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/indicatorGameIntro"
+        android:padding="10dip"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true" />
+
+	<ImageView
+	    android:id="@+id/btnGameIntroOK"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:src="@drawable/button_ok_black" />
+
+</RelativeLayout>

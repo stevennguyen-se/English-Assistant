@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thesis"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.example.thesis.global.GlobalVariable"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.thesis.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.thesis.activity.application.WordDetailActivity"
+            android:label="@string/title_activity_word_detail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.sfsu.cs.orange.ocr.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="edu.sfsu.cs.orange.ocr.HelpActivity"
+            android:screenOrientation="user" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="edu.sfsu.cs.orange.ocr.PreferencesActivity" />
+        <activity
+            android:name="com.example.thesis.game.activity.ChooseGamesActivity"
+            android:label="@string/title_activity_activity_choose_games"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.game.activity.BeginGameActivity"
+            android:label="@string/title_activity_activity_begin_game"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.game.parachutist.ParachutistOptionActivity"
+            android:label="@string/title_activity_parachutist_option"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.game.parachutist.ParachutistGameActivity"
+            android:label="@string/title_activity_parachutist_game"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.dashbroad.activity.DashboardGeneralWeekActivity"
+            android:label="@string/title_activity_dashboard_general_week"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.dashbroad.activity.DashboardFavoriteWeekActivity"
+            android:label="@string/title_activity_dashboard_favorite_week"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.dashbroad.activity.DashboardGeneralMonthActivity"
+            android:label="@string/title_activity_dashboard_general_month"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.dashbroad.activity.DashboardFavoriteMonthActivity"
+            android:label="@string/title_activity_dashboard_favorite_month"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.game.activity.ChooseWordsActivity"
+            android:label="@string/title_activity_choose_words"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.game.activity.NewRecordActivity"
+            android:label="@string/title_activity_new_record"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.game.wordvsdefinition.WDOptionActivity"
+            android:label="@string/title_activity_wdoption"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.game.wordvsdefinition.WDGameActivity"
+            android:label="@string/title_activity_wdgame"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.activity.application.FavoritesCalanderActivity"
+            android:label="@string/title_activity_favorites_calander"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.game.speakingtime.SpeakingTimeGameActivity"
+            android:label="@string/title_activity_speaking_time_game"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.game.speakingtime.SpeakingTimeOptionActivity"
+            android:label="@string/title_activity_speaking_time_option"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.activity.application.AboutUsDeveloperActivity"
+            android:label="@string/title_activity_about_us_developer"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.activity.application.AboutUsReferenceActivity"
+            android:label="@string/title_activity_about_us_reference"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.activity.application.AboutUsContactActivity"
+            android:label="@string/title_activity_contact_us"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.activity.application.WordTypeActivity"
+            android:label="@string/title_activity_word_type"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.activity.application.FavoritesDetailDayActivity"
+            android:label="@string/title_activity_favorite_detail_day"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.dashbroad.activity.DashboardWordWrongActivity"
+            android:label="@string/title_activity_dashboard_word_wrong"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.game.activity.GameIntroductionActivity"
+            android:label="@string/title_activity_game_introduction"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.ActionBarActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.thesis.FirstIntroductionActivity"
+            android:label="@string/title_activity_sample"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

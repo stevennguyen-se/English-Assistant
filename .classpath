@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="E:/workspaceThesis/Thesis/libs/CWAC-AdapterWrapper.jar"/>
+	<classpathentry kind="lib" path="E:/workspaceThesis/Thesis/libs/google-api-translate-java-0.98-mod2.jar"/>
+	<classpathentry kind="lib" path="E:/workspaceThesis/Thesis/libs/json_simple-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/workspaceThesis/Thesis/libs/jsoup-1.8.2.jar"/>
+	<classpathentry kind="lib" path="E:/workspaceThesis/Thesis/libs/jtar-1.0.4.jar"/>
+	<classpathentry kind="lib" path="E:/workspaceThesis/Thesis/libs/microsoft-translator-java-api-0.6-mod.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

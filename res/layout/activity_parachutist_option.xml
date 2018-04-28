@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutParachutistGameOption"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="11" >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+        	android:layout_weight="4" >
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutOption"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+        	android:layout_weight="5"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/btnParachutistStart"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:text="@string/start" />
+
+            <ImageButton
+                android:id="@+id/btnParachutistIntroduction"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:text="@string/intro" />
+
+            <ImageButton
+                android:id="@+id/btnParachutistMenu"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:text="@string/creadit" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/layoutOptionMode"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+        	android:layout_weight="5"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <ImageButton
+                android:id="@+id/btnParachutistEasy"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:text="@string/start" />
+
+            <ImageButton
+                android:id="@+id/btnParachutistNormal"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:text="@string/intro" />
+
+            <ImageButton
+                android:id="@+id/btnParachutistHard"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:text="@string/creadit" />
+            
+            <ImageButton
+                android:id="@+id/btnParachutistExpert"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:text="@string/creadit" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
