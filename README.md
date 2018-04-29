@@ -7,21 +7,21 @@ Searching and recommendation are not enough to help students learn new English v
 ### Demo:
 #### Dictionary
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=gg6ZemHq2Zc">
+  <a href="https://www.youtube.com/watch?v=gg6ZemHq2Zc" target="_blank">
     <img src="https://img.youtube.com/vi/gg6ZemHq2Zc/0.jpg" alt="Polymer Starter Kit 2 video">
   </a>
 </p>
 
 #### Dashboard
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=7r7bPlChhc0">
+  <a href="https://www.youtube.com/watch?v=7r7bPlChhc0" target="_blank">
     <img src="https://img.youtube.com/vi/7r7bPlChhc0/0.jpg" alt="Polymer Starter Kit 2 video">
   </a>
 </p>
 
 #### Game
 <p align="center">
-  <a href="https://https://www.youtube.com/watch?v=a72onFOPCRU">
+  <a href="https://https://www.youtube.com/watch?v=a72onFOPCRU" target="_blank">
     <img src="https://img.youtube.com/vi/a72onFOPCRU/0.jpg" alt="Polymer Starter Kit 2 video">
   </a>
 </p>
